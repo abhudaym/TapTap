@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body style="background-image: url(1121913-full-size-aesthetic-wallpapers-2560x1440-for-ipad.jpg)";>
+<div align="center" class="">
+        <h1 class="display-1" style="margin-bottom: 20px; margin-top:20px;">TAP TAP TAP</h1>
+        <input type="text" id="uname" placeholder="Enter Username" class="col-lg-6" style="padding: 10px 10px; text-align: center; font-size: 20px;"></br>
+        <button type="button" onclick="btnClick()" class="btn btn-success col-lg-3" style="margin: 20px 20px;">Hit Me</button></br>
+        <button type="button" onclick="startGame()" class="btn btn-info col-lg-3">Start Game</button>
+    </div>
+<div>
+    <h2 id="score" class="display-2"></h2>
+</div>    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCbStXEp7IReUU6oZI2O5ZZq8YxG21uxY4",
+    authDomain: "abhuday-dsc.firebaseapp.com",
+    databaseURL: "https://abhuday-dsc.firebaseio.com",
+    projectId: "abhuday-dsc",
+    storageBucket: "abhuday-dsc.appspot.com",
+    messagingSenderId: "632197763382",
+    appId: "1:632197763382:web:ae8180263a4e533c722397"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  </script>
+  <script src="game.js"></script>
+</body>
+</html>
