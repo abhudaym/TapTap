@@ -1,0 +1,19 @@
+body{
+    font-family: 'GoogleFont';
+    
+}
+
+@font-face{
+    font-family: 'GoogleFont';
+    src: url(./ProductSans-Bold_1b2049464dce1ac801cec1357c2e45b8.ttf);
+}
+.vertical-center{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 0;
+}
+
+#score{
+    text-align: center;
+}
